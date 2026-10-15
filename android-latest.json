@@ -1,0 +1,7 @@
+{
+  "version": "0.1.0",
+  "size": 57721661,
+  "sha256": "a9f4da8ae2b8ed6364d398c7779af41f993311acb1c827e7ba7d1c5a63c9e17a",
+  "notes": "# Elo Android 0.1.0 — prévia nativa\n\nAplicativo Android em Kotlin, com a mesma conta e os mesmos servidores do Elo web e Windows.\n\n- Cadastro e login com sessão protegida no Android Keystore.\n- Servidores, convites, canais, mensagens de texto, amigos e conversas privadas.\n- Edição de nome e biografia.\n- Chamadas de voz e câmera com serviço de primeiro plano; navegar pelo aplicativo mantém a chamada.\n- Reprodução de câmeras e transmissões dos participantes.\n- Verificação de novas versões ao abrir a comunidade e em Perfil. A instalação exige confirmação do Android; atualizar por cima, com a mesma assinatura, preserva a sessão válida.\n\nRequer Android 8 ou mais recente. Prévia inicial: ainda sem envio/visualização de anexos, catálogo de GIFs, captura da tela do celular, criação de grupos, administração completa de servidores ou notificações push com o app fechado. Chats abertos sincronizam a cada três segundos. Chamadas e câmera ainda precisam de validação em aparelho físico; os testes de compilação não substituem essa validação.\n\nO Windows continua com seu aplicativo e atualizador próprios. Este APK não altera o instalador Windows.\n",
+  "publishedAt": "2026-10-15T19:58:05.425Z"
+}
