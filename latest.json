@@ -1,7 +1,7 @@
 {
-  "version": "0.3.1",
-  "sha256": "6b98f88161e01827d2288c632f5bc18b6ca3f2a9ec9798be64cfe679bc2d12ca",
-  "size": 162537472,
-  "notes": "# Elo Windows 0.3.1\n\nAs novas versões são baixadas automaticamente para os usuários com o Elo aberto e conectado à internet, com verificações ao abrir e a cada 30 minutos.\n\nUm pacote já baixado e verificado é instalado ao reabrir o aplicativo. Também é possível escolher Instalar e reiniciar nas configurações. O perfil e os cookies ficam na mesma pasta entre as versões, preservando o login enquanto a sessão for válida. A instalação não apaga contas, servidores ou conversas.\n\nQuem ainda usa o Elo 0.3.0 recebe o aviso desta versão pelo atualizador existente. A instalação desta versão ativa os novos downloads automáticos.\r\n",
-  "publishedAt": "2026-10-15T15:20:49.524Z"
+  "version": "0.3.2",
+  "sha256": "b4b357d1a2036e5b99645fa4cdad62e435eeda955f11046572d52dea42550e7f",
+  "size": 162537984,
+  "notes": "# Elo Windows 0.3.2 — copiar e colar\n\n- Menu de botão direito com recortar, copiar, colar, colar como texto, selecionar tudo e copiar imagem.\n- Ctrl+C/Ctrl+V nos campos e imagens coladas como anexo com prévia antes do envio.\n- Copiar texto de mensagens e copiar imagem/link das mídias recebidas.\n- A escrita na área de transferência é restrita à janela principal do Elo. A leitura pelo botão Colar solicita confirmação, sem leitura automática em segundo plano.\n\nMantém o atualizador automático e a mesma pasta de perfil; a conta continua conectada enquanto a sessão estiver válida. O instalador preserva os atalhos existentes.\n",
+  "publishedAt": "2026-10-15T20:59:21.545Z"
 }
