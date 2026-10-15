@@ -1,7 +1,7 @@
 {
-  "version": "0.2.0",
-  "size": 1043347,
-  "sha256": "412cf539de591ada48c0b658d72f382bdb67166ba14e41aa5f8254985534bcbb",
-  "notes": "# Elo Android 0.2.0 — a mesma interface do site\n\n- Substitui as telas simplificadas pela interface completa e responsiva do Elo dentro do aplicativo, conforme a escolha do usuário.\n- Chats, servidores, amigos, grupos, GIFs, mídias, perfis e configurações passam a usar os mesmos componentes e permissões do navegador.\n- Seletor Android para enviar arquivos, salvamento de anexos, vídeos em tela cheia e links externos no navegador.\n- Câmera e microfone solicitam apenas as permissões necessárias para o domínio do Elo.\n- Importação da sessão da versão 0.1.0, preservando a conta válida ao instalar por cima com a mesma assinatura.\n- Atualizações em Configurações do usuário → Aplicativo Elo. Melhorias da interface chegam online; atualizações do APK exigem confirmação do Android.\n\nRequer Android 8+ e Android System WebView atualizado. A chamada agora usa WebRTC do site: o serviço nativo anterior de segundo plano foi removido, e o Android pode interromper mídia em segundo plano ou com tela bloqueada. Captura da tela do celular e notificações push com o app fechado ainda não estão disponíveis. Câmera, chamadas e gravação de áudio precisam de validação em aparelho físico.\n\nO aplicativo Windows e seu atualizador permanecem independentes.\n",
-  "publishedAt": "2026-10-15T20:20:04.553Z"
+  "version": "0.2.1",
+  "size": 1050955,
+  "sha256": "edcbb73e1d5d9840b1d17957353f9fb865532c4e9aef4452c3b37d3dcea15659",
+  "notes": "# Elo Android 0.2.1 — copiar e colar\n\n- Botão Colar nos chats para texto, links e imagens. Imagens entram na prévia antes do envio.\n- Copiar texto de mensagens, links e imagens recebidas, inclusive no visualizador de imagens.\n- Integração com a área de transferência do Android. Cada leitura pelo botão Colar pede confirmação nativa; nada é lido em segundo plano ou enviado automaticamente.\n- Respeita permissões de anexos, até três mídias por mensagem, 5 MB por arquivo e 12 MB no total.\n- Imagens copiadas são PNG; GIFs são copiados como quadro estático. Use o GIF original ou seu link para preservar animação.\n\nInstale por cima da versão anterior para manter a sessão válida. Android 8+, com Android System WebView atualizado. As limitações de chamadas em segundo plano, captura da tela do celular e notificações com o app fechado continuam iguais à versão anterior.\n",
+  "publishedAt": "2026-10-15T20:59:19.689Z"
 }
