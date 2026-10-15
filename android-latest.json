@@ -1,7 +1,7 @@
 {
-  "version": "0.3.0",
+  "version": "0.3.1",
   "size": 57721825,
-  "sha256": "7c4fe5354f78011bacaa1574e13e6422f55b861400110a6384320e7c84c0b990",
-  "notes": "# Elo Android 0.3.0 — voz em segundo plano\n\n- Chamadas de voz passam a usar o LiveKit nativo em um serviço de primeiro plano, independente da interface web. Trocar de aplicativo, bloquear a tela ou fechar a tela do Elo mantém a chamada enquanto o sistema permitir a execução e houver conexão.\n- Notificação permanente com microfone ligado/desligado e ações para silenciar ou sair. O microfone exige autorização do Android.\n- Ao reabrir o Elo, a interface recupera a chamada ativa. Sair da chamada ou da conta encerra a conexão.\n- Câmeras e transmissões recebidas abrem em um painel nativo, com até quatro vídeos simultâneos. Fechar esse painel pausa a câmera local e os vídeos recebidos, mantendo a voz. Volumes individuais de voz e transmissão continuam disponíveis.\n- A interface completa do site, os chats e os recursos de copiar/colar permanecem disponíveis.\n\nInstale por cima da versão anterior para manter a sessão válida. Android 8+, com Android System WebView atualizado. Encerrar à força, restrições de bateria do fabricante e perda de conexão podem interromper a chamada. Ainda não há transmissão da tela do celular nem notificações push de mensagens com o app fechado. Validação em aparelho físico continua necessária.\r\n",
-  "publishedAt": "2026-10-15T21:47:19.588Z"
+  "sha256": "2957234f924c79181b0a6158d07a306ca5e9520fba82af4152ac6c9fb30ba3b9",
+  "notes": "# Elo Android 0.3.1 — abertura de links\n\n- Links de mensagens, perfis e outras áreas que abrem em nova aba agora são encaminhados ao navegador do Android.\n- Links HTTP/HTTPS abrem fora do Elo, preservando a interface e a chamada nativa em andamento. URLs internas continuam no aplicativo quando não pedem nova aba.\n- Protocolos executáveis, arquivos locais e URLs com credenciais não são encaminhados.\n\nInstale por cima da versão anterior para preservar os dados e a sessão válida. Mantém a voz em segundo plano da versão 0.3.0. Um navegador instalado é necessário para abrir links externos.\r\n",
+  "publishedAt": "2026-10-15T21:58:34.229Z"
 }
