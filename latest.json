@@ -1,7 +1,7 @@
 {
-  "version": "0.3.0",
-  "sha256": "82bcfb107f2e4464e997704a21c6dfbe0ba29cbc394b2d76fcd53a20bbff7ed3",
-  "size": 162535936,
-  "notes": "Elo Windows 0.3.0 — download pelo site e atualizações integradas.\n\n- Baixe o aplicativo em https://elo-wxe2.onrender.com, usando “Baixar Elo para Windows”, sem entrar no GitHub.\n- O aplicativo verifica novas versões ao abrir e periodicamente. Também há “Verificar atualizações” em Configurações do usuário > Aplicativo.\n- Uma nova versão pode ser baixada durante o uso. O arquivo é conferido antes de ficar disponível para instalar.\n- Use “Instalar e reiniciar” quando quiser atualizar. O Elo será fechado e o instalador será aberto; chamadas e transmissões em andamento serão encerradas.\n- Mantém os atalhos, contas, servidores e conversas. Inclui a correção da tela cheia da versão anterior.\n\nEsta versão precisa ser instalada uma vez para ativar o atualizador. As próximas atualizações Windows poderão ser iniciadas dentro do próprio Elo. As melhorias da interface e dos chats continuam usando a plataforma online.\n\nWindows 10 e 11 x64. Versão de prévia sem assinatura de editor.\n",
-  "publishedAt": "2026-10-15T15:00:28.822Z"
+  "version": "0.3.1",
+  "sha256": "6b98f88161e01827d2288c632f5bc18b6ca3f2a9ec9798be64cfe679bc2d12ca",
+  "size": 162537472,
+  "notes": "# Elo Windows 0.3.1\n\nAs novas versões são baixadas automaticamente para os usuários com o Elo aberto e conectado à internet, com verificações ao abrir e a cada 30 minutos.\n\nUm pacote já baixado e verificado é instalado ao reabrir o aplicativo. Também é possível escolher Instalar e reiniciar nas configurações. O perfil e os cookies ficam na mesma pasta entre as versões, preservando o login enquanto a sessão for válida. A instalação não apaga contas, servidores ou conversas.\n\nQuem ainda usa o Elo 0.3.0 recebe o aviso desta versão pelo atualizador existente. A instalação desta versão ativa os novos downloads automáticos.\r\n",
+  "publishedAt": "2026-10-15T15:20:49.524Z"
 }
