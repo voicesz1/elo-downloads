@@ -1,0 +1,7 @@
+{
+  "version": "0.3.0",
+  "sha256": "82bcfb107f2e4464e997704a21c6dfbe0ba29cbc394b2d76fcd53a20bbff7ed3",
+  "size": 162535936,
+  "notes": "Elo Windows 0.3.0 — download pelo site e atualizações integradas.\n\n- Baixe o aplicativo em https://elo-wxe2.onrender.com, usando “Baixar Elo para Windows”, sem entrar no GitHub.\n- O aplicativo verifica novas versões ao abrir e periodicamente. Também há “Verificar atualizações” em Configurações do usuário > Aplicativo.\n- Uma nova versão pode ser baixada durante o uso. O arquivo é conferido antes de ficar disponível para instalar.\n- Use “Instalar e reiniciar” quando quiser atualizar. O Elo será fechado e o instalador será aberto; chamadas e transmissões em andamento serão encerradas.\n- Mantém os atalhos, contas, servidores e conversas. Inclui a correção da tela cheia da versão anterior.\n\nEsta versão precisa ser instalada uma vez para ativar o atualizador. As próximas atualizações Windows poderão ser iniciadas dentro do próprio Elo. As melhorias da interface e dos chats continuam usando a plataforma online.\n\nWindows 10 e 11 x64. Versão de prévia sem assinatura de editor.\n",
+  "publishedAt": "2026-10-15T15:00:28.822Z"
+}
