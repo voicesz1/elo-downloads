@@ -1,7 +1,7 @@
 {
-  "version": "0.3.2",
-  "sha256": "b4b357d1a2036e5b99645fa4cdad62e435eeda955f11046572d52dea42550e7f",
-  "size": 162537984,
-  "notes": "# Elo Windows 0.3.2 — copiar e colar\n\n- Menu de botão direito com recortar, copiar, colar, colar como texto, selecionar tudo e copiar imagem.\n- Ctrl+C/Ctrl+V nos campos e imagens coladas como anexo com prévia antes do envio.\n- Copiar texto de mensagens e copiar imagem/link das mídias recebidas.\n- A escrita na área de transferência é restrita à janela principal do Elo. A leitura pelo botão Colar solicita confirmação, sem leitura automática em segundo plano.\n\nMantém o atualizador automático e a mesma pasta de perfil; a conta continua conectada enquanto a sessão estiver válida. O instalador preserva os atalhos existentes.\n",
-  "publishedAt": "2026-10-15T20:59:21.545Z"
+  "version": "0.3.3",
+  "sha256": "08a94a02be7fcc551ef06f2d4b9fe870883995bb3a742ec5f6ce8c1480ef3dd0",
+  "size": 162538496,
+  "notes": "# Elo Windows 0.3.3 — abertura de links\n\n- Links de mensagens, perfis e outras áreas que abrem em nova aba agora são encaminhados ao navegador padrão do Windows.\n- Navegação externa também abre no navegador, preservando o Elo e a chamada. Navegação interna continua no aplicativo.\n- Protocolos executáveis, arquivos locais e URLs com credenciais são bloqueados. Falhas do navegador geram uma mensagem visível.\n\nMantém o atualizador automático, os atalhos e a pasta de perfil. A sessão válida continua conectada após atualizar.\r\n",
+  "publishedAt": "2026-10-15T21:58:36.024Z"
 }
