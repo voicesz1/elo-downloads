@@ -1,7 +1,7 @@
 {
-  "version": "0.2.1",
-  "size": 1050955,
-  "sha256": "edcbb73e1d5d9840b1d17957353f9fb865532c4e9aef4452c3b37d3dcea15659",
-  "notes": "# Elo Android 0.2.1 — copiar e colar\n\n- Botão Colar nos chats para texto, links e imagens. Imagens entram na prévia antes do envio.\n- Copiar texto de mensagens, links e imagens recebidas, inclusive no visualizador de imagens.\n- Integração com a área de transferência do Android. Cada leitura pelo botão Colar pede confirmação nativa; nada é lido em segundo plano ou enviado automaticamente.\n- Respeita permissões de anexos, até três mídias por mensagem, 5 MB por arquivo e 12 MB no total.\n- Imagens copiadas são PNG; GIFs são copiados como quadro estático. Use o GIF original ou seu link para preservar animação.\n\nInstale por cima da versão anterior para manter a sessão válida. Android 8+, com Android System WebView atualizado. As limitações de chamadas em segundo plano, captura da tela do celular e notificações com o app fechado continuam iguais à versão anterior.\n",
-  "publishedAt": "2026-10-15T20:59:19.689Z"
+  "version": "0.3.0",
+  "size": 57721825,
+  "sha256": "7c4fe5354f78011bacaa1574e13e6422f55b861400110a6384320e7c84c0b990",
+  "notes": "# Elo Android 0.3.0 — voz em segundo plano\n\n- Chamadas de voz passam a usar o LiveKit nativo em um serviço de primeiro plano, independente da interface web. Trocar de aplicativo, bloquear a tela ou fechar a tela do Elo mantém a chamada enquanto o sistema permitir a execução e houver conexão.\n- Notificação permanente com microfone ligado/desligado e ações para silenciar ou sair. O microfone exige autorização do Android.\n- Ao reabrir o Elo, a interface recupera a chamada ativa. Sair da chamada ou da conta encerra a conexão.\n- Câmeras e transmissões recebidas abrem em um painel nativo, com até quatro vídeos simultâneos. Fechar esse painel pausa a câmera local e os vídeos recebidos, mantendo a voz. Volumes individuais de voz e transmissão continuam disponíveis.\n- A interface completa do site, os chats e os recursos de copiar/colar permanecem disponíveis.\n\nInstale por cima da versão anterior para manter a sessão válida. Android 8+, com Android System WebView atualizado. Encerrar à força, restrições de bateria do fabricante e perda de conexão podem interromper a chamada. Ainda não há transmissão da tela do celular nem notificações push de mensagens com o app fechado. Validação em aparelho físico continua necessária.\r\n",
+  "publishedAt": "2026-10-15T21:47:19.588Z"
 }
