@@ -1,7 +1,7 @@
 {
-  "version": "0.3.1",
-  "size": 57721825,
-  "sha256": "2957234f924c79181b0a6158d07a306ca5e9520fba82af4152ac6c9fb30ba3b9",
-  "notes": "# Elo Android 0.3.1 — abertura de links\n\n- Links de mensagens, perfis e outras áreas que abrem em nova aba agora são encaminhados ao navegador do Android.\n- Links HTTP/HTTPS abrem fora do Elo, preservando a interface e a chamada nativa em andamento. URLs internas continuam no aplicativo quando não pedem nova aba.\n- Protocolos executáveis, arquivos locais e URLs com credenciais não são encaminhados.\n\nInstale por cima da versão anterior para preservar os dados e a sessão válida. Mantém a voz em segundo plano da versão 0.3.0. Um navegador instalado é necessário para abrir links externos.\r\n",
-  "publishedAt": "2026-10-15T21:58:34.229Z"
+  "version": "0.4.0",
+  "size": 57721833,
+  "sha256": "1bf9449dddde1d9d7e9c4a518d896641368163eee2a8eb17bf5013e790acbfaa",
+  "notes": "# Elo Android 0.4.0 — voz em segundo plano e compartilhamento de tela\n\n- A chamada de voz permanece conectada ao trocar de aplicativo, apagar a tela ou fechar a tela da chamada.\n- O microfone fica no serviço de primeiro plano do Android, com notificação para silenciar ou sair.\n- Compartilhar tela abre a autorização nativa do Android e continua ao trocar de aplicativo. A captura usa a tela autorizada e o microfone da chamada; o áudio de outros aplicativos não é incluído automaticamente.\n- O botão de uso em segundo plano abre as opções de bateria do Elo para aparelhos que restringem serviços.\n- Links HTTP/HTTPS continuam sendo encaminhados ao navegador do Android, preservando a interface e a chamada nativa.\n\nInstale por cima da versão anterior para preservar os dados e a sessão válida. O Android pode interromper a projeção ao bloquear a tela e pode encerrar qualquer chamada após Forçar parada, restrições severas de bateria ou perda de internet.\n",
+  "publishedAt": "2026-10-16T01:28:06.044Z"
 }
